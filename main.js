@@ -1,4 +1,4 @@
-// #Task1: 
+// #Task1:
 // Create a function which makes the last character of a string repeatnnumber of times.
 
 // let modifylast = (text, n) => {
@@ -13,7 +13,6 @@
 // console.log(modifylast('hey', 6));
 // console.log(modifylast('excuse me what?', 5));
 
-
 // #Task2.
 // Create a function that takes a string and returns the concatenated first and last character.
 
@@ -25,7 +24,7 @@
 // console.log(firstLast("vishnu"));
 
 // #Task3
-// Write to fucntions: 1. toInt(): A function to convert a string to an integer. 
+// Write to fucntions: 1. toInt(): A function to convert a string to an integer.
 // 2. toString(): A function to convert an integer to a string
 
 //string => number
@@ -33,15 +32,13 @@
 //     return +satr
 // }
 
-// // number => string  
+// // number => string
 // let toString = (integer) => {
 //     return integer.toString()
 // }
 
 // console.log(typeof toInt('234'));
 // console.log(typeof toString(123));
-
-
 
 // #Task4
 // Create a fucntion that takes in a word and detemines whether or not it is plural.
@@ -54,21 +51,14 @@
 // console.log(isPlural("change"));
 // console.log(isPlural("dudes"));
 
-
 // #Task5
 // Create a function that takes a string of lowercase charaters and returns that string reversed and in upper case.
 
-// let reverseCapitalize = (text) => {
-//     return text.toUpperCase()
-// }
-// console.log(reverseCapitalize("abc"));
-// console.log(reverseCapitalize("hellothere"));
-// console.log(reverseCapitalize("input"));
-
-let str = "salom"
-
-str.test = 5
-
-console.log(str.test);
-
-
+let reverseCapitalize = (str) => {
+    return str.split("").reverse().join("").toUpperCase();
+  };
+  
+  console.log(reverseCapitalize("abc"));
+  console.log(reverseCapitalize("hellothere"));
+  console.log(reverseCapitalize("input"));
+  
